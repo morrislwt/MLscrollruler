@@ -40,8 +40,10 @@ print("\(figure)")
 ```
 ```swift
 func setup(){
+//customize frame x, y and width
 let ruler = ScrollFrame(frame: CGRect(x: (centerX - 150), y: 120, width: 300, height: 100))
 ruler.delegate = self
+//customize 
 ruler.scrollView.backgroundColor = .lightGray
 ruler.middleLine.backgroundColor = .red
 ruler.rulerLine.strokeColor = UIColor.black.cgColor
