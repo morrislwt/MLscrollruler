@@ -1,0 +1,6 @@
+framework module scrollruler {
+  umbrella header "scrollruler-umbrella.h"
+
+  export *
+  module * { export * }
+}

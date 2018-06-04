@@ -1,0 +1,22 @@
+{
+  "name": "scrollruler",
+  "version": "0.1.0",
+  "summary": "A short description of scrollruler.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/morrislwt/scrollruler",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "morrislwt": "morris.lwt@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/morrislwt/scrollruler.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "scrollruler/Classes/**/*"
+}

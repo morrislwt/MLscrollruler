@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26982824004DCB58CA8FE9D43270349F /* Pods-scrollruler_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8828F89EEF0B7447DE29FF2DE04AF2D /* Pods-scrollruler_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		367C311CB8E95D41C944D6D5A051BD57 /* Pods-scrollruler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE2448C2F0FD1CB557EF03EA8709765 /* Pods-scrollruler_Tests-dummy.m */; };
+		586693CB69B79FEB2D7D53E0BF1A3B58 /* RulerFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = E445B024BCA41278523397A2A2940EAE /* RulerFramework.swift */; };
+		5BAEA3EAEB4E5B7688D8BF2CA31853FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5BCFEDC062682A72757E9E1CA8A35B92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6642B74053BE3CE74FA30C5E45EB414C /* scrollruler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA251D94D26D90334A0D591A6F912CB /* scrollruler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70647142988E8B34D59A131D142039BC /* Pods-scrollruler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B88533893C1D27B82D7D19840FD69F2F /* Pods-scrollruler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		892FFBA892AE1264410643BB4C00CB01 /* scrollruler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD8519CB28F09D95E73AE9FE4B84225 /* scrollruler-dummy.m */; };
+		CE17AA1988920E0590686E87274DB836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FFC23762895C3DAB02276177EE0F58BB /* Pods-scrollruler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7071E2CFB4BC8F1675E47C015A0FE94 /* Pods-scrollruler_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A4060AFB3CC91360E9559D358FF3D57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 531977EB8FD709DA6061536DABF52969;
+			remoteInfo = scrollruler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C364C2111C9AABF8F8E45EA1B4F121D /* scrollruler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "scrollruler-prefix.pch"; sourceTree = "<group>"; };
+		1C7BDE43F6BD8DB82EA3DAA8B8FC625A /* Pods-scrollruler_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-scrollruler_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		285FB89927B521FFE4A7EF8D394706AA /* scrollruler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = scrollruler.xcconfig; sourceTree = "<group>"; };
+		2EA251D94D26D90334A0D591A6F912CB /* scrollruler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "scrollruler-umbrella.h"; sourceTree = "<group>"; };
+		3A06D30C26DE0D7259131FD4059EDC27 /* Pods-scrollruler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-scrollruler_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		40B0CEE0C7C3823DC6D11989633BAAC8 /* scrollruler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = scrollruler.modulemap; sourceTree = "<group>"; };
+		459CBAA010A8CCBBA98C77E0381CB059 /* Pods-scrollruler_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-scrollruler_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B1B541581B5EF436B17E87AABBD6484 /* Pods-scrollruler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-scrollruler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58C7747B44482F4F48ED5AC1C45EEF25 /* Pods-scrollruler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-scrollruler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		60EFE0DCE21D95429BF2376BB56C70AC /* Pods-scrollruler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-scrollruler_Example.release.xcconfig"; sourceTree = "<group>"; };
+		60FA95A6CCAD986A76E092C0D82E7BBD /* scrollruler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = scrollruler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A2097945D1CB2DC0B0A47DA326D9F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6BCEA7DAFA1188470E302BC5FB174F4D /* Pods_scrollruler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scrollruler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73515D885B861D0A9A286100B8239E29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7E717D4313DDB3A064826F876B0DC384 /* Pods-scrollruler_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-scrollruler_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8919907CA0DF98C523BB669A425EE76C /* Pods_scrollruler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scrollruler_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8C114692A45274C7EE53CEABEC2E17 /* Pods-scrollruler_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-scrollruler_Example-resources.sh"; sourceTree = "<group>"; };
+		8FD8519CB28F09D95E73AE9FE4B84225 /* scrollruler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "scrollruler-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C44FA306EED3FCE0655166C580BE4F2 /* scrollruler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = scrollruler.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABE2448C2F0FD1CB557EF03EA8709765 /* Pods-scrollruler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-scrollruler_Tests-dummy.m"; sourceTree = "<group>"; };
+		B88533893C1D27B82D7D19840FD69F2F /* Pods-scrollruler_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-scrollruler_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C77F1B9567A332112674A6F11F0A4777 /* Pods-scrollruler_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-scrollruler_Tests-resources.sh"; sourceTree = "<group>"; };
+		CC923ED7C669152E6F8C90F1ECCF192B /* Pods-scrollruler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-scrollruler_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CFA375A8968C1E20BE338321C31CF69F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1E83F1EB3DC0FF200F082AB6AD76F02 /* Pods-scrollruler_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-scrollruler_Example.modulemap"; sourceTree = "<group>"; };
+		D6C304F4DC3E2EFD241AAC4134846012 /* Pods-scrollruler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-scrollruler_Tests.modulemap"; sourceTree = "<group>"; };
+		DFDC320AF2AAA9E6CFF3311ADA54C48A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E2DF1D5917A28EDBC652F9038B3D2870 /* Pods-scrollruler_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-scrollruler_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E445B024BCA41278523397A2A2940EAE /* RulerFramework.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RulerFramework.swift; path = scrollruler/Classes/RulerFramework.swift; sourceTree = "<group>"; };
+		E8828F89EEF0B7447DE29FF2DE04AF2D /* Pods-scrollruler_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-scrollruler_Example-umbrella.h"; sourceTree = "<group>"; };
+		F7071E2CFB4BC8F1675E47C015A0FE94 /* Pods-scrollruler_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-scrollruler_Example-dummy.m"; sourceTree = "<group>"; };
+		F9D4F3BB764294DFEC2AA743A880B7B5 /* Pods-scrollruler_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-scrollruler_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FD2B5F792A5235A054E09948E0DB7FEB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B7B24E83D8B93E583790426DADBBFB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE17AA1988920E0590686E87274DB836 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C965390D8EC4860D1B2AADD7DFCEC49C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BAEA3EAEB4E5B7688D8BF2CA31853FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F0D14C8D0CA2E284A5770C773486C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCFEDC062682A72757E9E1CA8A35B92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F691B5B30425B8F611EB83BCBD7CEEB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED22178A4C938AF7AEFB0B71FB4F9F6E /* Pods-scrollruler_Example */,
+				63E70CA27EA5B3F828B7AFA81E868B1C /* Pods-scrollruler_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		63E70CA27EA5B3F828B7AFA81E868B1C /* Pods-scrollruler_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				63A2097945D1CB2DC0B0A47DA326D9F4 /* Info.plist */,
+				D6C304F4DC3E2EFD241AAC4134846012 /* Pods-scrollruler_Tests.modulemap */,
+				4B1B541581B5EF436B17E87AABBD6484 /* Pods-scrollruler_Tests-acknowledgements.markdown */,
+				1C7BDE43F6BD8DB82EA3DAA8B8FC625A /* Pods-scrollruler_Tests-acknowledgements.plist */,
+				ABE2448C2F0FD1CB557EF03EA8709765 /* Pods-scrollruler_Tests-dummy.m */,
+				E2DF1D5917A28EDBC652F9038B3D2870 /* Pods-scrollruler_Tests-frameworks.sh */,
+				C77F1B9567A332112674A6F11F0A4777 /* Pods-scrollruler_Tests-resources.sh */,
+				B88533893C1D27B82D7D19840FD69F2F /* Pods-scrollruler_Tests-umbrella.h */,
+				58C7747B44482F4F48ED5AC1C45EEF25 /* Pods-scrollruler_Tests.debug.xcconfig */,
+				3A06D30C26DE0D7259131FD4059EDC27 /* Pods-scrollruler_Tests.release.xcconfig */,
+			);
+			name = "Pods-scrollruler_Tests";
+			path = "Target Support Files/Pods-scrollruler_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CA6C5D27C2FAF56FD2C2EEB1141FD16B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C077EE9EAE8DBDBF471895FA7E6122A6 /* Products */,
+				1F691B5B30425B8F611EB83BCBD7CEEB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88FF59E047D0D53D77BFD8AE223E9F71 /* scrollruler */ = {
+			isa = PBXGroup;
+			children = (
+				E445B024BCA41278523397A2A2940EAE /* RulerFramework.swift */,
+				E8BA61BDEEBF7B6BB55B6468251A2137 /* Pod */,
+				C3FA0D73C31D6A06256D9536495E099D /* Support Files */,
+			);
+			name = scrollruler;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C077EE9EAE8DBDBF471895FA7E6122A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8919907CA0DF98C523BB669A425EE76C /* Pods_scrollruler_Example.framework */,
+				6BCEA7DAFA1188470E302BC5FB174F4D /* Pods_scrollruler_Tests.framework */,
+				60FA95A6CCAD986A76E092C0D82E7BBD /* scrollruler.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3FA0D73C31D6A06256D9536495E099D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFA375A8968C1E20BE338321C31CF69F /* Info.plist */,
+				40B0CEE0C7C3823DC6D11989633BAAC8 /* scrollruler.modulemap */,
+				285FB89927B521FFE4A7EF8D394706AA /* scrollruler.xcconfig */,
+				8FD8519CB28F09D95E73AE9FE4B84225 /* scrollruler-dummy.m */,
+				1C364C2111C9AABF8F8E45EA1B4F121D /* scrollruler-prefix.pch */,
+				2EA251D94D26D90334A0D591A6F912CB /* scrollruler-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/scrollruler";
+			sourceTree = "<group>";
+		};
+		CA6C5D27C2FAF56FD2C2EEB1141FD16B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88FF59E047D0D53D77BFD8AE223E9F71 /* scrollruler */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E8BA61BDEEBF7B6BB55B6468251A2137 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				73515D885B861D0A9A286100B8239E29 /* LICENSE */,
+				DFDC320AF2AAA9E6CFF3311ADA54C48A /* README.md */,
+				9C44FA306EED3FCE0655166C580BE4F2 /* scrollruler.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		ED22178A4C938AF7AEFB0B71FB4F9F6E /* Pods-scrollruler_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FD2B5F792A5235A054E09948E0DB7FEB /* Info.plist */,
+				D1E83F1EB3DC0FF200F082AB6AD76F02 /* Pods-scrollruler_Example.modulemap */,
+				7E717D4313DDB3A064826F876B0DC384 /* Pods-scrollruler_Example-acknowledgements.markdown */,
+				459CBAA010A8CCBBA98C77E0381CB059 /* Pods-scrollruler_Example-acknowledgements.plist */,
+				F7071E2CFB4BC8F1675E47C015A0FE94 /* Pods-scrollruler_Example-dummy.m */,
+				F9D4F3BB764294DFEC2AA743A880B7B5 /* Pods-scrollruler_Example-frameworks.sh */,
+				8C8C114692A45274C7EE53CEABEC2E17 /* Pods-scrollruler_Example-resources.sh */,
+				E8828F89EEF0B7447DE29FF2DE04AF2D /* Pods-scrollruler_Example-umbrella.h */,
+				CC923ED7C669152E6F8C90F1ECCF192B /* Pods-scrollruler_Example.debug.xcconfig */,
+				60EFE0DCE21D95429BF2376BB56C70AC /* Pods-scrollruler_Example.release.xcconfig */,
+			);
+			name = "Pods-scrollruler_Example";
+			path = "Target Support Files/Pods-scrollruler_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34AFD3273346F39F6F1598FEA4C9AF66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6642B74053BE3CE74FA30C5E45EB414C /* scrollruler-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80170762ECBA97061818B78CA9E835FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26982824004DCB58CA8FE9D43270349F /* Pods-scrollruler_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E12216EC215E8EE852807DCA5F48DF95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70647142988E8B34D59A131D142039BC /* Pods-scrollruler_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		380AE7CA484F8E4E25E12DAC4153490C /* Pods-scrollruler_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27713FF3D636AE6B88361B5F7805E16 /* Build configuration list for PBXNativeTarget "Pods-scrollruler_Tests" */;
+			buildPhases = (
+				1E072138527A05361D63489A0C472891 /* Sources */,
+				C965390D8EC4860D1B2AADD7DFCEC49C /* Frameworks */,
+				E12216EC215E8EE852807DCA5F48DF95 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-scrollruler_Tests";
+			productName = "Pods-scrollruler_Tests";
+			productReference = 6BCEA7DAFA1188470E302BC5FB174F4D /* Pods_scrollruler_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		531977EB8FD709DA6061536DABF52969 /* scrollruler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C7E679EC0814D938A9BD9A3D540626 /* Build configuration list for PBXNativeTarget "scrollruler" */;
+			buildPhases = (
+				D31D82F84C9FE3EC78AD559A7910A618 /* Sources */,
+				E0F0D14C8D0CA2E284A5770C773486C3 /* Frameworks */,
+				34AFD3273346F39F6F1598FEA4C9AF66 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scrollruler;
+			productName = scrollruler;
+			productReference = 60FA95A6CCAD986A76E092C0D82E7BBD /* scrollruler.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6884DB394B5E1EEBE8696498F330F0D8 /* Pods-scrollruler_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C532090CE363EA327CAA04FD33BEDEE0 /* Build configuration list for PBXNativeTarget "Pods-scrollruler_Example" */;
+			buildPhases = (
+				276D4AA43113FFE3610A4D448B35451B /* Sources */,
+				3B7B24E83D8B93E583790426DADBBFB9 /* Frameworks */,
+				80170762ECBA97061818B78CA9E835FD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5096ADC0E82A84E5EBD41AA4F82B143 /* PBXTargetDependency */,
+			);
+			name = "Pods-scrollruler_Example";
+			productName = "Pods-scrollruler_Example";
+			productReference = 8919907CA0DF98C523BB669A425EE76C /* Pods_scrollruler_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C077EE9EAE8DBDBF471895FA7E6122A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6884DB394B5E1EEBE8696498F330F0D8 /* Pods-scrollruler_Example */,
+				380AE7CA484F8E4E25E12DAC4153490C /* Pods-scrollruler_Tests */,
+				531977EB8FD709DA6061536DABF52969 /* scrollruler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E072138527A05361D63489A0C472891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367C311CB8E95D41C944D6D5A051BD57 /* Pods-scrollruler_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276D4AA43113FFE3610A4D448B35451B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC23762895C3DAB02276177EE0F58BB /* Pods-scrollruler_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31D82F84C9FE3EC78AD559A7910A618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586693CB69B79FEB2D7D53E0BF1A3B58 /* RulerFramework.swift in Sources */,
+				892FFBA892AE1264410643BB4C00CB01 /* scrollruler-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5096ADC0E82A84E5EBD41AA4F82B143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = scrollruler;
+			target = 531977EB8FD709DA6061536DABF52969 /* scrollruler */;
+			targetProxy = 7A4060AFB3CC91360E9559D358FF3D57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F3387D80B85E8B26905719C3DAA6D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC923ED7C669152E6F8C90F1ECCF192B /* Pods-scrollruler_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-scrollruler_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-scrollruler_Example/Pods-scrollruler_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_scrollruler_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		389162CBE4710D0E9058FC73D253E83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60EFE0DCE21D95429BF2376BB56C70AC /* Pods-scrollruler_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-scrollruler_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-scrollruler_Example/Pods-scrollruler_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_scrollruler_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5935D7C2AE3FCB954877733FD3E5BF1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58C7747B44482F4F48ED5AC1C45EEF25 /* Pods-scrollruler_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-scrollruler_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-scrollruler_Tests/Pods-scrollruler_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_scrollruler_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68325E80596B79ABE42B6A47FF568BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A06D30C26DE0D7259131FD4059EDC27 /* Pods-scrollruler_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-scrollruler_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-scrollruler_Tests/Pods-scrollruler_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_scrollruler_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		979592109BFF7AA5A2BF962FF1D77608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285FB89927B521FFE4A7EF8D394706AA /* scrollruler.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/scrollruler/scrollruler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/scrollruler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/scrollruler/scrollruler.modulemap";
+				PRODUCT_NAME = scrollruler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9A9B6BCCDB0EEB6F2C0075F666EFA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285FB89927B521FFE4A7EF8D394706AA /* scrollruler.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/scrollruler/scrollruler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/scrollruler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/scrollruler/scrollruler.modulemap";
+				PRODUCT_NAME = scrollruler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27C7E679EC0814D938A9BD9A3D540626 /* Build configuration list for PBXNativeTarget "scrollruler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979592109BFF7AA5A2BF962FF1D77608 /* Debug */,
+				E9A9B6BCCDB0EEB6F2C0075F666EFA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B27713FF3D636AE6B88361B5F7805E16 /* Build configuration list for PBXNativeTarget "Pods-scrollruler_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5935D7C2AE3FCB954877733FD3E5BF1F /* Debug */,
+				68325E80596B79ABE42B6A47FF568BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C532090CE363EA327CAA04FD33BEDEE0 /* Build configuration list for PBXNativeTarget "Pods-scrollruler_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3387D80B85E8B26905719C3DAA6D1E /* Debug */,
+				389162CBE4710D0E9058FC73D253E83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - scrollruler (0.1.0)
+
+DEPENDENCIES:
+  - scrollruler (from `../`)
+
+EXTERNAL SOURCES:
+  scrollruler:
+    :path: ../
+
+SPEC CHECKSUMS:
+  scrollruler: 7b4ebf36b6f0987ee3122de3bce202c78d5ae958
+
+PODFILE CHECKSUM: fd49c124cbf05afba1575ab03a355e63c3d2460c
+
+COCOAPODS: 1.4.0
