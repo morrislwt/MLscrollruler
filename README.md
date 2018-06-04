@@ -6,7 +6,7 @@
 ![Swift version](https://img.shields.io/badge/swift-4.0-orange.svg)
 
 
-![Alt text](demo.gif)
+![Demo image](demo.gif)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
