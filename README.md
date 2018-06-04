@@ -1,6 +1,5 @@
 # scrollruler
 
-[![CI Status](https://img.shields.io/travis/morrislwt/MLscrollruler.svg?style=flat)](https://travis-ci.org/morrislwt/scrollruler)
 [![Version](https://img.shields.io/cocoapods/v/MLscrollruler.svg?style=flat)](https://cocoapods.org/pods/scrollruler)
 [![License](https://img.shields.io/cocoapods/l/MLscrollruler.svg?style=flat)](https://cocoapods.org/pods/scrollruler)
 [![Platform](https://img.shields.io/cocoapods/p/MLscrollruler.svg?style=flat)](https://cocoapods.org/pods/scrollruler)
