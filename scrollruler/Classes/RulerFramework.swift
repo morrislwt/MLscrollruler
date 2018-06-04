@@ -15,12 +15,12 @@ extension Double {
         return number * nearest
     }
 }
-protocol RulerDelegate: NSObjectProtocol {
+public protocol RulerDelegate: NSObjectProtocol {
     ///刻度尺代理方法
     func setupRuler(ruler: ScrollFrame,figure:Double)
 }
 
-class ScrollFrame: UIView,UIScrollViewDelegate{
+public class ScrollFrame: UIView,UIScrollViewDelegate{
     weak var delegate: RulerDelegate?
     
     var scrollView = UIScrollView()
@@ -37,7 +37,7 @@ class ScrollFrame: UIView,UIScrollViewDelegate{
         setupUI()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -49,7 +49,7 @@ class ScrollFrame: UIView,UIScrollViewDelegate{
 
         
     }
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
 
         scrollView.layer.cornerRadius = 10
@@ -93,11 +93,11 @@ class ScrollFrame: UIView,UIScrollViewDelegate{
         let point:CGPoint = CGPoint(x: closeToPoint5 * 25, y: 0.0)
         scrollView.setContentOffset(point, animated: true)
     }
-    func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
+    public func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
         closestOffset()
     }
     
-    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+    public func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         closestOffset()
     }
     public func scrollViewDidScroll(_ scrollView: UIScrollView) {
