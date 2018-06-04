@@ -23,6 +23,9 @@ pod 'MLscrollruler'
 ```
 
 ## How to use
+```swift
+import MLscrollruler
+```
 
 ```swift
 class ViewController:UIViewController,RulerDelegate{
