@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'scrollruler_Example' do
+  pod 'scrollruler', :path => '../'
+
+  target 'scrollruler_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
