@@ -21,11 +21,11 @@ public protocol RulerDelegate: NSObjectProtocol {
 }
 
 public class ScrollFrame: UIView,UIScrollViewDelegate{
-    weak var delegate: RulerDelegate?
+    public weak var delegate: RulerDelegate?
     
-    var scrollView = UIScrollView()
-    var middleLine = UIView()
-    var rulerLine = CAShapeLayer()
+    public var scrollView = UIScrollView()
+    public var middleLine = UIView()
+    public var rulerLine = CAShapeLayer()
     let lines = UIBezierPath()
     let layerView = UIView()
     
