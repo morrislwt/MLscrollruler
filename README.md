@@ -5,11 +5,13 @@
 [![Platform](https://img.shields.io/cocoapods/p/MLscrollruler.svg?style=flat)](https://cocoapods.org/pods/scrollruler)
 ![Swift version](https://img.shields.io/badge/swift-4.0-orange.svg)
 
-## Example
+
+![Alt text](demo.gif)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+* iOS 9 or higher
 
 ## Installation
 
@@ -19,6 +21,37 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'MLscrollruler'
 ```
+
+## How to use
+
+```swift
+class ViewController:UIViewController,RulerDelegate{
+
+}
+```
+```swift
+func setupRuler(ruler: ScrollFrame, figure: Double) {
+//you can get value when you scrolling
+print("\(figure)")
+}
+```
+```swift
+func setup(){
+let ruler = ScrollFrame(frame: CGRect(x: (centerX - 150), y: 120, width: 300, height: 100))
+ruler.delegate = self
+ruler.scrollView.backgroundColor = .lightGray
+ruler.middleLine.backgroundColor = .red
+ruler.rulerLine.strokeColor = UIColor.black.cgColor
+view.addSubview(ruler)
+}
+```
+```swift
+override func viewDidLoad() {
+super.viewDidLoad()
+setup()
+}
+```
+
 
 ## Author
 
