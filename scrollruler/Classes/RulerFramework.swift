@@ -29,7 +29,7 @@ public class ScrollFrame: UIView,UIScrollViewDelegate{
     let lines = UIBezierPath()
     let layerView = UIView()
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         scrollView.delegate = self
         
