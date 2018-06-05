@@ -53,11 +53,11 @@ public class ScrollFrame: UIView,UIScrollViewDelegate{
         super.layoutSubviews()
 
         scrollView.layer.cornerRadius = 10
-        scrollView.contentSize = CGSize(width: 2800, height: 100)
+        scrollView.contentSize = CGSize(width: 3000, height: 100)
         scrollView.showsVerticalScrollIndicator = false
         scrollView.showsHorizontalScrollIndicator = false
         scrollView.frame = bounds
-        scrollView.bounces = true
+        scrollView.bounces = false
         middleLine.frame = CGRect(x: scrollView.frame.width / 2, y: 0, width: 1, height: 20)
         layerView.frame = CGRect(x: scrollView.frame.width / 2, y: 0, width: scrollView.frame.width, height: 100)
         
@@ -103,12 +103,12 @@ public class ScrollFrame: UIView,UIScrollViewDelegate{
     public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let x:Double = Double(scrollView.contentOffset.x / 25 + 0.5/25)
         let floorX = x.floor(nearest: 0.5)
-        print(scrollView.contentOffset.x)
         var figure:Double = x.floor(nearest: 0.5)
         if floorX < 0 {
             figure = 0.0
         }else if floorX > 100 {
             figure = 100.0
+            scrollView.setContentOffset(CGPoint(x: 2500, y: 0.0), animated: false)
         }
         guard floorX <= 100, floorX >= 0 else { return }
         delegate?.setupRuler(ruler: self,figure: figure)

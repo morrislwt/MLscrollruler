@@ -41,6 +41,7 @@ print("\(figure)")
 ```swift
 func setup(){
 //customize frame x, y and width
+let centerX = view.frame.width / 2
 let ruler = ScrollFrame(frame: CGRect(x: (centerX - 150), y: 120, width: 300, height: 100))
 ruler.delegate = self
 //customize 
